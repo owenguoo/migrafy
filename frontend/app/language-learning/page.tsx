@@ -1,7 +1,8 @@
 import Link from "next/link";
-import { Layout } from "@/frontend/components/layout/layout";
+import { Button } from "@/components/ui/button";
+import { Layout } from "@/components/layout/layout";
 import { ChevronRight, Clock, MessageSquare } from "lucide-react";
-import { Button } from "@/frontend/components/ui/button";
+
 
 export default function LanguageLearningPage() {
   return (

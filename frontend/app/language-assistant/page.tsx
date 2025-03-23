@@ -9,8 +9,8 @@ import {
   BookOpen,
   Info,
 } from "lucide-react";
-import { Button } from "@/frontend/components/ui/button";
-import { Layout } from "@/frontend/components/layout/layout";
+import { Button } from "@/components/ui/button";
+import { Layout } from "@/components/layout/layout";
 
 export default function LanguageAssistantPage() {
   return (
@@ -66,9 +66,15 @@ export default function LanguageAssistantPage() {
             Hi, I'm Steven and I'll help you improve your English.
           </h3>
 
-          <Button className="bg-[#2273ce] hover:bg-[#2273ce]/90 mb-6">
-            Practice Live with AI
-          </Button>
+          <a
+            href="https://agents-playground.livekit.io/?utm_campaign=techwithtim"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Button className="bg-[#2273ce] hover:bg-[#2273ce]/90 mb-6">
+              Practice Live with AI
+            </Button>
+          </a>
 
           <div className="flex gap-4">
             <div className="flex flex-col items-center">

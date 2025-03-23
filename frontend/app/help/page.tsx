@@ -1,4 +1,4 @@
-import { Layout } from "@/frontend/components/layout/layout";
+import { Layout } from "@/components/layout/layout";
 
 export default function HelpPage() {
   return (

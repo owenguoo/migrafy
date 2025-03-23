@@ -1,6 +1,6 @@
 import { ChevronRight, Search, MapPin, Briefcase, Star } from "lucide-react";
-import { Button } from "@/frontend/components/ui/button";
-import { Layout } from "@/frontend/components/layout/layout";
+import { Button } from "@/components/ui/button";
+import { Layout } from "@/components/layout/layout";
 
 export default function JobsPage() {
   return (
